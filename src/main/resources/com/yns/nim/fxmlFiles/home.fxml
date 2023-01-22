@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2D2A32;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yns.nim.controllers.HomeController">
+   <children>
+      <Button layoutX="-6.0" layoutY="18.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="185.0" style="-fx-background-color: #e94560; -fx-cursor: hand; -fx-background-radius: 8px; -fx-border-width: 0;" text="     Rules" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9f263a" height="57.0" layoutX="-10.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 18; -fx-arc-width: 18; -fx-cursor: hand;" width="75.0" />
+      <ImageView fitHeight="34.0" fitWidth="27.0" layoutX="16.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../images/rules.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="-6.0" layoutY="95.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="185.0" style="-fx-background-color: #e94560; -fx-cursor: hand; -fx-background-radius: 8px; -fx-border-width: 0;" text="      Music" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9f263a" height="57.0" layoutX="-10.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 18; -fx-arc-width: 18; -fx-cursor: hand;" width="75.0" />
+      <ImageView fitHeight="34.0" fitWidth="27.0" layoutX="16.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../images/sound.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="play_now" layoutX="408.0" layoutY="253.0" mnemonicParsing="false" onAction="#switchToGamePlay" prefHeight="57.0" prefWidth="387.0" style="-fx-background-color: #1CE591; -fx-border-radius: 8; -fx-text-fill: white; -fx-cursor: hand;" text="PLAY NOW">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="58.0" layoutX="408.0" layoutY="253.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #128B59; -fx-stroke: none; -fx-cursor: hand;" width="62.0" />
+      <ImageView fitHeight="60.0" fitWidth="29.0" layoutX="421.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../images/game.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="view_prfile" layoutX="405.0" layoutY="391.0" mnemonicParsing="false" onAction="#switchToViewProfile" prefHeight="57.0" prefWidth="387.0" style="-fx-background-color: #629EE5; -fx-border-radius: 8; -fx-text-fill: white; -fx-cursor: hand;" text="PREVIEW PROFILE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#315988" height="58.0" layoutX="405.0" layoutY="391.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #315988; -fx-stroke: none; -fx-cursor: hand;" width="62.0" />
+      <ImageView fitHeight="60.0" fitWidth="29.0" layoutX="420.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../images/profile.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="log_out" layoutX="406.0" layoutY="530.0" mnemonicParsing="false" onAction="#switchToSignIn" prefHeight="57.0" prefWidth="387.0" style="-fx-background-color: #812130; -fx-border-radius: 8; -fx-text-fill: white; -fx-cursor: hand;" text="LOG OUT">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="58.0" layoutX="406.0" layoutY="530.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #54121C; -fx-stroke: none; -fx-cursor: hand;" width="62.0" />
+      <ImageView fitHeight="60.0" fitWidth="29.0" layoutX="419.0" layoutY="544.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../images/logout.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

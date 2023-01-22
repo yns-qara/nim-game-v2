@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2D2A32;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yns.nim.controllers.RulesController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="9.0" layoutY="51.0" prefHeight="704.0" prefWidth="1181.0" spacing="15.0">
+         <children>
+            <Label contentDisplay="TOP" text="Rules" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="63.0" />
+               </font>
+            </Label>
+            <Label text="#1 : the game is played with two players only" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label text="#2 : a player can only take a certaint ammount from a single " textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="161.0" text="row at a time" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="161.0" text="#3 : a player cannot redo his selection after it is validated" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="10.0" text="Objective" textFill="WHITE">
+               <font>
+                  <Font size="63.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="279.0" text="winner and loser is determined when there is only one piece " textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="430.0" text="left in the game, if it is the case then the loser is the one" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="489.0" text=" that have the current move." textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9f263a" height="57.0" layoutX="-5.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 18; -fx-arc-width: 18; -fx-cursor: hand;" width="75.0" />
+      <ImageView fitHeight="34.0" fitWidth="27.0" layoutX="21.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../images/home.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9f263a" height="57.0" layoutX="-5.0" layoutY="107.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 18; -fx-arc-width: 18; -fx-cursor: hand;" width="75.0" />
+      <ImageView fitHeight="34.0" fitWidth="27.0" layoutX="21.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../images/sound.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="goHome" layoutX="-1.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchH" prefHeight="56.0" prefWidth="75.0" style="-fx-background-color: #e94560; -fx-cursor: hand; -fx-background-radius: 8px; -fx-border-width: 0; -fx-opacity: 0;" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button layoutX="-1.0" layoutY="107.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="75.0" style="-fx-background-color: #e94560; -fx-cursor: hand; -fx-background-radius: 8px; -fx-border-width: 0; -fx-opacity: 0;" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
