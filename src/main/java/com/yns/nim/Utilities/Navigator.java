@@ -1,7 +1,8 @@
-package com.yns.nim.controllers;
+package com.yns.nim.Utilities;
 
 import com.yns.nim.Main;
 import com.yns.nim.SoundHandler;
+import com.yns.nim.controllers.SignInController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;

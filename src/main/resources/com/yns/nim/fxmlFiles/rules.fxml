@@ -72,7 +72,7 @@
             <Image url="@../images/sound.png" />
          </image>
       </ImageView>
-      <Button fx:id="goHome" layoutX="-1.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchH" prefHeight="56.0" prefWidth="75.0" style="-fx-background-color: #e94560; -fx-cursor: hand; -fx-background-radius: 8px; -fx-border-width: 0; -fx-opacity: 0;" textAlignment="RIGHT" textFill="WHITE">
+      <Button fx:id="goHome" layoutX="-1.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchHome" prefHeight="56.0" prefWidth="75.0" style="-fx-background-color: #e94560; -fx-cursor: hand; -fx-background-radius: 8px; -fx-border-width: 0; -fx-opacity: 0;" textAlignment="RIGHT" textFill="WHITE">
          <font>
             <Font size="22.0" />
          </font>

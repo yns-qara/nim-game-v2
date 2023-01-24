@@ -1,5 +1,7 @@
 package com.yns.nim.controllers;
 
+import com.yns.nim.Utilities.Navigator;
+import com.yns.nim.Utilities.StatsHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;

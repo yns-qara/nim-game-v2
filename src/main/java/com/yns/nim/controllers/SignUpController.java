@@ -1,6 +1,7 @@
 package com.yns.nim.controllers;
 
-import com.yns.nim.DbUtils;
+import com.yns.nim.Utilities.DataBaseOperations.DbUtils;
+import com.yns.nim.Utilities.Navigator;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import java.io.IOException;

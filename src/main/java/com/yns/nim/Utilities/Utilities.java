@@ -1,4 +1,4 @@
-package com.yns.nim.controllers;
+package com.yns.nim.Utilities;
 
 import javafx.scene.control.Button;
 

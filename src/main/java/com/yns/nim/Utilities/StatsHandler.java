@@ -1,10 +1,11 @@
-package com.yns.nim.controllers;
+package com.yns.nim.Utilities;
 
+import com.yns.nim.controllers.SignInController;
 import javafx.scene.control.Label;
 
 import java.sql.*;
 
-import static com.yns.nim.DbUtils.printSQLException;
+import static com.yns.nim.Utilities.DataBaseOperations.DbUtils.printSQLException;
 
 public class StatsHandler {
 
