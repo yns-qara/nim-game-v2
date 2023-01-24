@@ -113,7 +113,8 @@ public class GamePlayController implements Initializable {
 //            StatsHandler.insertPlayerStats(id, score, wins);
 //            scoreP.setText(String.valueOf(score));
 //            winP.setText(String.valueOf(wins));
-            Navigator.matchResult(validate, "audio/win.mp3", "win!", "fxmlFiles/win.fxml", scoreAI, winAI, scoreP, winP);
+
+            Navigator.matchResult(validate, "audio/win.mp3", "win!", "fxmlFiles/win.fxml", scoreAI, winAI, scoreP, winP,true);
         }
 
         if (!Arrays.toString(rows_before).equals(Arrays.toString(rows_after))) {
@@ -305,7 +306,7 @@ public class GamePlayController implements Initializable {
 
 
         if (Utilities.count(items) == 1 && Navigator.computer_turn) {
-            Navigator.matchResult(validate, "audio/loss.mp3", "loss!", "fxmlFiles/loss.fxml", scoreAI, winAI, scoreP, winP);
+            Navigator.matchResult(validate, "audio/loss.mp3", "loss!", "fxmlFiles/loss.fxml", scoreAI, winAI, scoreP, winP,false);
         }
 
 
