@@ -9,36 +9,35 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2D2A32;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yns.nim.controllers.SignUpController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1150.0" style="-fx-background-color: #2D2A32;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yns.nim.controllers.SignUpController">
    <children>
-      <Circle fill="#991d3e71" layoutX="413.0" layoutY="209.0" radius="74.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Circle fill="#991d3ec3" layoutX="343.0" layoutY="648.0" radius="140.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <TextField fx:id="firstName" layoutX="413.0" layoutY="172.0" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
+      <Circle fill="#991d3e71" layoutX="389.0" layoutY="166.0" radius="74.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <TextField fx:id="firstName" layoutX="384.0" layoutY="127.0" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="save" layoutX="417.0" layoutY="543.0" mnemonicParsing="false" onAction="#register" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: #629EE5; -fx-text-fill: white; -fx-border-radius: 6; -fx-cursor: hand;" text="Register">
+      <Button fx:id="save" layoutX="388.0" layoutY="498.0" mnemonicParsing="false" onAction="#register" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: #629EE5; -fx-text-fill: white; -fx-border-radius: 6; -fx-cursor: hand;" text="Register">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Label layoutX="416.0" layoutY="146.0" text="Fist Name" textFill="WHITE">
+      <Label layoutX="387.0" layoutY="101.0" text="Fist Name" textFill="WHITE">
          <font>
             <Font size="17.0" />
          </font>
       </Label>
-      <Label layoutX="418.0" layoutY="235.0" text="Email" textFill="WHITE">
+      <Label layoutX="389.0" layoutY="190.0" text="Email" textFill="WHITE">
          <font>
             <Font size="17.0" />
          </font>
       </Label>
-      <Label layoutX="477.0" layoutY="620.0" text="Already have an account?" textFill="WHITE">
+      <Label layoutX="448.0" layoutY="575.0" text="Already have an account?" textFill="WHITE">
          <font>
             <Font size="17.0" />
          </font>
       </Label>
-      <TextField fx:id="lastName" layoutX="613.0" layoutY="173.0" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
+      <TextField fx:id="lastName" layoutX="584.0" layoutY="128.0" prefHeight="50.0" prefWidth="175.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -46,24 +45,24 @@
             <Font size="20.0" />
          </font>
       </TextField>
-      <Label layoutX="616.0" layoutY="145.0" text="Last Name" textFill="WHITE">
+      <Label layoutX="587.0" layoutY="100.0" text="Last Name" textFill="WHITE">
          <font>
             <Font size="17.0" />
          </font>
       </Label>
-      <PasswordField fx:id="password" layoutX="414.0" layoutY="352.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;" />
-      <Label layoutX="418.0" layoutY="324.0" text="Password" textFill="WHITE">
+      <PasswordField fx:id="password" layoutX="385.0" layoutY="307.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;" />
+      <Label layoutX="389.0" layoutY="279.0" text="Password" textFill="WHITE">
          <font>
             <Font size="17.0" />
          </font>
       </Label>
-      <PasswordField fx:id="confirmPassword" layoutX="414.0" layoutY="444.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;" />
-      <Label layoutX="418.0" layoutY="416.0" text="Confirm Password" textFill="WHITE">
+      <PasswordField fx:id="confirmPassword" layoutX="385.0" layoutY="399.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;" />
+      <Label layoutX="389.0" layoutY="371.0" text="Confirm Password" textFill="WHITE">
          <font>
             <Font size="17.0" />
          </font>
       </Label>
-      <TextField fx:id="email" layoutX="414.0" layoutY="263.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
+      <TextField fx:id="email" layoutX="385.0" layoutY="218.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
@@ -71,16 +70,17 @@
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="signIn" layoutX="664.0" layoutY="613.0" mnemonicParsing="false" onAction="#switchToSignIn" style="-fx-background-color: none; -fx-cursor: hand;" text="sign in" textFill="#10e7f4">
+      <Button fx:id="signIn" layoutX="635.0" layoutY="568.0" mnemonicParsing="false" onAction="#switchToSignIn" style="-fx-background-color: none; -fx-cursor: hand;" text="sign in" textFill="#10e7f4">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Circle fill="#991d3ebf" layoutX="175.0" layoutY="378.0" radius="88.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Circle fill="#991d3ed6" layoutX="1209.0" layoutY="166.0" radius="94.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Circle fill="#9b1c3d" layoutX="1161.0" layoutY="840.0" radius="178.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Circle fill="#991d3ed6" layoutX="1063.0" layoutY="402.0" radius="94.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Circle fill="#991d3ee2" layoutX="-17.0" layoutY="656.0" radius="64.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Circle fill="#991d3ee3" layoutX="766.0" layoutY="-13.0" radius="56.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#991d3ec3" layoutX="331.0" layoutY="730.0" radius="140.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#991d3ebf" layoutX="126.0" layoutY="330.0" radius="88.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#991d3ed6" layoutX="-29.0" layoutY="74.0" radius="94.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#9b1c3d" layoutX="1122.0" layoutY="748.0" radius="178.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#991d3e91" layoutX="1167.0" layoutY="297.0" radius="94.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#991d3ee2" layoutX="-20.0" layoutY="680.0" radius="64.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fill="#991d3ee3" layoutX="788.0" layoutY="7.0" radius="56.0" stroke="TRANSPARENT" strokeType="INSIDE" />
    </children>
 </Pane>

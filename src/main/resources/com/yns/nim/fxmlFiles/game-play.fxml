@@ -13,9 +13,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2D2A32;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yns.nim.controllers.GamePlayController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1150.0" style="-fx-background-color: #2D2A32;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yns.nim.controllers.GamePlayController">
    <children>
-      <Button fx:id="validate1" layoutX="343.0" layoutY="582.0" mnemonicParsing="false" onAction="#validateChoice" prefHeight="53.0" prefWidth="217.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 11; -fx-padding: 0;" text="My move">
+      <Button fx:id="validate1" layoutX="324.0" layoutY="509.0" mnemonicParsing="false" onAction="#validateChoice" prefHeight="53.0" prefWidth="217.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 11; -fx-padding: 0;" text="My move">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -26,7 +26,7 @@
             <Font size="30.0" />
          </font>
       </Button>
-      <GridPane alignment="CENTER" hgap="15.0" layoutX="248.0" layoutY="152.0" prefHeight="373.0" prefWidth="700.0" vgap="15.0">
+      <GridPane alignment="CENTER" hgap="15.0" layoutX="221.0" layoutY="78.0" prefHeight="373.0" prefWidth="700.0" vgap="15.0">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -43,26 +43,26 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="b1" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50; -fx-background-color: #EF1F4D; -fx-border-radius: 50; -fx-border-color: #9B1C3D; -fx-border-width: 7;" GridPane.columnIndex="3">
+            <Button fx:id="b1" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50; -fx-background-color: #EF1F4D; -fx-border-radius: 50; -fx-border-color: #9B1C3D; -fx-border-width: 7;" GridPane.columnIndex="3">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button fx:id="b3" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button fx:id="b2" layoutX="310.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="b5" layoutX="210.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button fx:id="b10" layoutX="110.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.rowIndex="3" />
-            <Button fx:id="b11" layoutX="10.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Button fx:id="b12" layoutX="110.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Button fx:id="b6" layoutX="210.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button fx:id="b7" layoutX="210.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <Button fx:id="b4" layoutX="310.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-            <Button fx:id="b8" layoutX="410.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-            <Button fx:id="b13" layoutX="410.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <Button fx:id="b14" layoutX="310.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-            <Button fx:id="b15" layoutX="410.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-            <Button fx:id="b9" layoutX="510.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-            <Button fx:id="b16" layoutX="510.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="82.0" prefWidth="82.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="b3" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="b2" layoutX="310.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="b5" layoutX="210.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="b10" layoutX="110.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.rowIndex="3" />
+            <Button fx:id="b11" layoutX="10.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="b12" layoutX="110.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="b6" layoutX="210.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="b7" layoutX="210.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="b4" layoutX="310.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="b8" layoutX="410.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="b13" layoutX="410.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="b14" layoutX="310.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="b15" layoutX="410.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="b9" layoutX="510.0" layoutY="110.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="b16" layoutX="510.0" layoutY="203.0" mnemonicParsing="false" onAction="#selectItem" prefHeight="72.0" prefWidth="72.0" style="-fx-background-radius: 50%; -fx-background-color: #EF1F4D; -fx-border-style: solid; -fx-border-radius: 50%; -fx-border-color: #9B1C3D; -fx-border-width: 7; -fx-cursor: hand;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
          </children>
       </GridPane>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9f263a" height="57.0" layoutX="-10.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 18; -fx-arc-width: 18; -fx-cursor: hand;" width="75.0" />
@@ -83,13 +83,7 @@
             <Image url="@../images/restart.png" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9f263a" height="57.0" layoutX="-10.0" layoutY="249.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 18; -fx-arc-width: 18; -fx-cursor: hand;" width="75.0" />
-      <ImageView fitHeight="34.0" fitWidth="27.0" layoutX="16.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
-         <image>
-            <Image url="@../images/sound.png" />
-         </image>
-      </ImageView>
-      <Button fx:id="validate" layoutX="637.0" layoutY="582.0" mnemonicParsing="false" onAction="#computerTurn" prefHeight="53.0" prefWidth="217.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 11; -fx-padding: 0;" text="AI move">
+      <Button fx:id="validate" layoutX="618.0" layoutY="509.0" mnemonicParsing="false" onAction="#computerTurn" prefHeight="53.0" prefWidth="217.0" style="-fx-background-color: D9D9D9; -fx-background-radius: 11; -fx-padding: 0;" text="AI move">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -115,99 +109,94 @@
             <Font size="22.0" />
          </font>
       </Button>
-      <Button layoutX="-6.0" layoutY="249.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="75.0" style="-fx-background-color: #e94560; -fx-cursor: hand; -fx-background-radius: 8px; -fx-border-width: 0; -fx-opacity: 0;" textAlignment="RIGHT" textFill="WHITE">
-         <font>
-            <Font size="22.0" />
-         </font>
-      </Button>
-      <Button layoutY="676.0" mnemonicParsing="false" prefHeight="123.0" prefWidth="281.0" style="-fx-background-radius: 0 160 0 0; -fx-background-color: #29442f;" />
-      <Label layoutX="16.0" layoutY="705.0" text="wins" textFill="WHITE">
+      <Button layoutX="-2.0" layoutY="558.0" mnemonicParsing="false" prefHeight="123.0" prefWidth="247.0" style="-fx-background-radius: 0 160 0 0; -fx-background-color: #29442f;" />
+      <Label layoutX="14.0" layoutY="587.0" text="wins" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="16.0" layoutY="727.0" text="score" textFill="WHITE">
+      <Label layoutX="14.0" layoutY="609.0" text="score" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="16.0" layoutY="750.0" text="player" textFill="WHITE">
+      <Label layoutX="14.0" layoutY="632.0" text="player" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="80.0" layoutY="705.0" text=":" textFill="WHITE">
+      <Label layoutX="78.0" layoutY="587.0" text=":" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="80.0" layoutY="727.0" text=":" textFill="WHITE">
+      <Label layoutX="78.0" layoutY="609.0" text=":" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="80.0" layoutY="750.0" text=":" textFill="WHITE">
+      <Label layoutX="78.0" layoutY="632.0" text=":" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="usernameP" layoutX="102.0" layoutY="750.0" text="Younes-Qara" textFill="WHITE">
+      <Label fx:id="usernameP" layoutX="100.0" layoutY="632.0" text="Younes-Qara" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="scoreP" layoutX="101.0" layoutY="727.0" text="0" textFill="WHITE">
+      <Label fx:id="scoreP" layoutX="99.0" layoutY="609.0" text="0" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="winP" layoutX="102.0" layoutY="705.0" text="0" textFill="WHITE">
+      <Label fx:id="winP" layoutX="100.0" layoutY="587.0" text="0" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Button layoutX="919.0" layoutY="676.0" mnemonicParsing="false" prefHeight="123.0" prefWidth="281.0" style="-fx-background-radius: 160 0 0 0; -fx-background-color: #44292E;" />
-      <Label layoutX="987.0" layoutY="705.0" text="wins" textFill="WHITE">
+      <Button layoutX="893.0" layoutY="558.0" mnemonicParsing="false" prefHeight="123.0" prefWidth="258.0" style="-fx-background-radius: 160 0 0 0; -fx-background-color: #44292E;" />
+      <Label layoutX="938.0" layoutY="587.0" text="wins" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="987.0" layoutY="727.0" text="score" textFill="WHITE">
+      <Label layoutX="938.0" layoutY="609.0" text="score" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="987.0" layoutY="750.0" text="player" textFill="WHITE">
+      <Label layoutX="938.0" layoutY="632.0" text="player" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="1051.0" layoutY="705.0" text=":" textFill="WHITE">
+      <Label layoutX="1002.0" layoutY="587.0" text=":" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="1051.0" layoutY="727.0" text=":" textFill="WHITE">
+      <Label layoutX="1002.0" layoutY="609.0" text=":" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="1051.0" layoutY="750.0" text=":" textFill="WHITE">
+      <Label layoutX="1002.0" layoutY="632.0" text=":" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="usernameAI" layoutX="1073.0" layoutY="750.0" text="Artificial_Intlj" textFill="WHITE">
+      <Label fx:id="usernameAI" layoutX="1024.0" layoutY="632.0" text="Artificial_Intlj" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="scoreAI" layoutX="1072.0" layoutY="727.0" text="0" textFill="WHITE">
+      <Label fx:id="scoreAI" layoutX="1023.0" layoutY="609.0" text="0" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label fx:id="winAI" layoutX="1073.0" layoutY="705.0" text="0" textFill="WHITE">
+      <Label fx:id="winAI" layoutX="1024.0" layoutY="587.0" text="0" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font>
