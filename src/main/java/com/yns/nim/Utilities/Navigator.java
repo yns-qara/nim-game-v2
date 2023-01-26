@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
@@ -54,6 +55,7 @@ public class Navigator {
         Stage stage = new Stage();
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(path));
         Scene scene = new Scene(fxmlLoader.load());
+        stage.getIcons().add(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("images/N.png"))));
         stage.setTitle(title);
         stage.setOnCloseRequest(e -> {
             try {
@@ -74,6 +76,7 @@ public class Navigator {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("fxmlFiles/sign-up-ok.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("success!");
+        stage.getIcons().add(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("images/N.png"))));
         stage.setOnCloseRequest(e -> {
             try {
                 switchTo("fxmlFiles/sign-in.fxml", b);

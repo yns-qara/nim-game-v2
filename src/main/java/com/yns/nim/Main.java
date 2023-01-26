@@ -3,6 +3,7 @@ package com.yns.nim;
 import javafx.application.Application ;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
@@ -15,13 +16,12 @@ public class Main extends Application {
 
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("fxmlFiles/sign-in.fxml"));
 
-//        Font.loadFont(Objects.requireNonNull(getClass().getResource("style/Kodchasan-Bold.ttf")).toExternalForm(), 10);
-
         Scene scene = new Scene(fxmlLoader.load());
 
         scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("style/main.css")).toExternalForm());
 
         stage.setTitle("Nim Game!");
+        stage.getIcons().add(new Image(Objects.requireNonNull(Main.class.getResourceAsStream("images/N.png"))));
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
