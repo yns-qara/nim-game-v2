@@ -15,27 +15,27 @@
          <children>
             <Label contentDisplay="TOP" text="Les règles" textAlignment="CENTER" textFill="WHITE">
                <font>
-                  <Font size="63.0" />
+                  <Font name="Berlin Sans FB" size="40.0" />
                </font>
             </Label>
             <Label text="- Il y a plusieurs tas de jetons de tailles différentes." textFill="WHITE">
                <font>
-                  <Font size="36.0" />
+                  <Font name="Berlin Sans FB" size="40.0" />
                </font>
             </Label>
             <Label text="- Les joueurs jouent à tour de rôle en retirant des jetons d'un seule" textFill="WHITE">
                <font>
-                  <Font size="36.0" />
+                  <Font name="Berlin Sans FB" size="40.0" />
                </font>
             </Label>
             <Label layoutX="10.0" layoutY="161.0" text="tas de leur choix." textFill="WHITE">
                <font>
-                  <Font size="36.0" />
+                  <Font name="Berlin Sans FB" size="40.0" />
                </font>
             </Label>
             <Label layoutX="10.0" layoutY="161.0" text="- Le joueur qui retire l'avant dernier jeton gagne la partie." textFill="WHITE">
                <font>
-                  <Font size="36.0" />
+                  <Font name="Berlin Sans FB" size="40.0" />
                </font>
             </Label>
          </children>

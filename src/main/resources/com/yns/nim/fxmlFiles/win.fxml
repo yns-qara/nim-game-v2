@@ -8,7 +8,7 @@
    <children>
       <Label layoutX="117.0" layoutY="103.0" prefHeight="105.0" prefWidth="186.0" text="You won !!!" textAlignment="CENTER">
          <font>
-            <Font name="Microsoft YaHei" size="32.0" />
+            <Font name="Berlin Sans FB" size="32.0" />
          </font>
       </Label>
    </children>

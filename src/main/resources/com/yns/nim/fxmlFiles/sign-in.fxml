@@ -12,25 +12,25 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1150.0" style="-fx-background-color: #2D2A32;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yns.nim.controllers.SignInController">
    <children>
       <Circle fill="#991d3e71" layoutX="391.0" layoutY="165.0" radius="74.0" stroke="TRANSPARENT" strokeType="INSIDE" />
-      <Button fx:id="login" layoutX="398.0" layoutY="411.0" mnemonicParsing="false" onAction="#signIn" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: #629EE5; -fx-text-fill: white; -fx-border-radius: 6; -fx-cursor: hand;" text="Register">
+      <Button id="test" fx:id="login" layoutX="398.0" layoutY="411.0" mnemonicParsing="false" onAction="#signIn" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: #629EE5; -fx-text-fill: white; -fx-border-radius: 6; -fx-cursor: hand;" stylesheets="@../style/main.css" text="SIGN IN">
          <font>
-            <Font size="23.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Button>
       <Label layoutX="399.0" layoutY="194.0" text="Email" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <Label layoutX="458.0" layoutY="488.0" text="Don't have an account?" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <PasswordField fx:id="password" layoutX="395.0" layoutY="311.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;" />
       <Label layoutX="399.0" layoutY="283.0" text="Password" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <TextField fx:id="email" layoutX="395.0" layoutY="222.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
@@ -41,9 +41,9 @@
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="signUp" layoutX="631.0" layoutY="481.0" mnemonicParsing="false" onAction="#switchToSignUP" style="-fx-background-color: none; -fx-cursor: hand;" text="sign up" textFill="#10e7f4">
+      <Button fx:id="signUp" layoutX="631.0" layoutY="482.0" mnemonicParsing="false" onAction="#switchToSignUP" style="-fx-background-color: none; -fx-cursor: hand;" text="sign up" textFill="#10e7f4">
          <font>
-            <Font size="18.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Button>
       <Circle fill="#991d3ec3" layoutX="333.0" layoutY="729.0" radius="140.0" stroke="TRANSPARENT" strokeType="INSIDE" />
@@ -53,5 +53,10 @@
       <Circle fill="#991d3e91" layoutX="1167.0" layoutY="285.0" radius="94.0" stroke="TRANSPARENT" strokeType="INSIDE" />
       <Circle fill="#991d3ee2" layoutX="-18.0" layoutY="679.0" radius="64.0" stroke="TRANSPARENT" strokeType="INSIDE" />
       <Circle fill="#991d3ee3" layoutX="790.0" layoutY="6.0" radius="56.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Label fx:id="errMessage" layoutX="482.0" layoutY="369.0" textFill="RED">
+         <font>
+            <Font name="Berlin Sans FB" size="17.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

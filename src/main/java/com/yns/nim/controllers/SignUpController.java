@@ -16,7 +16,7 @@ public class SignUpController{
     @FXML
     private PasswordField password, confirmPassword;
     @FXML
-    private Label fill_err, password_err;
+    private Label errMessage;
 
 
 
@@ -34,14 +34,12 @@ public class SignUpController{
 
 
         if (userName.isEmpty() || emailText.isEmpty() || passwordText.isEmpty() || passwordConfirm.isEmpty()) {
-            fill_err.setStyle("-fx-opacity:1");
+            errMessage.setText("make sure to fill all the fields");
             return;
         }
 
         if (!passwordConfirm.equals(passwordText)) {
-            System.out.println(passwordConfirm);
-            System.out.println(passwordText);
-            password_err.setStyle("-fx-opacity:1");
+            errMessage.setText("passwords don't match");
             return;
         }
 

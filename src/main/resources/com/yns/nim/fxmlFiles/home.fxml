@@ -17,7 +17,7 @@
       </ImageView>
       <Button fx:id="play_now" layoutX="386.0" layoutY="189.0" mnemonicParsing="false" onAction="#switchToGamePlay" prefHeight="57.0" prefWidth="387.0" style="-fx-background-color: #1CE591; -fx-border-radius: 8; -fx-text-fill: white; -fx-cursor: hand;" text="PLAY NOW">
          <font>
-            <Font size="27.0" />
+            <Font name="Berlin Sans FB" size="27.0" />
          </font>
       </Button>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="58.0" layoutX="386.0" layoutY="189.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #128B59; -fx-stroke: none; -fx-cursor: hand;" width="62.0" />
@@ -28,7 +28,7 @@
       </ImageView>
       <Button fx:id="view_prfile" layoutX="383.0" layoutY="327.0" mnemonicParsing="false" onAction="#switchToViewProfile" prefHeight="57.0" prefWidth="387.0" style="-fx-background-color: #629EE5; -fx-border-radius: 8; -fx-text-fill: white; -fx-cursor: hand;" text="PREVIEW PROFILE">
          <font>
-            <Font size="27.0" />
+            <Font name="Berlin Sans FB" size="27.0" />
          </font>
       </Button>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#315988" height="58.0" layoutX="383.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #315988; -fx-stroke: none; -fx-cursor: hand;" width="62.0" />
@@ -39,7 +39,7 @@
       </ImageView>
       <Button fx:id="log_out" layoutX="384.0" layoutY="466.0" mnemonicParsing="false" onAction="#switchToSignIn" prefHeight="57.0" prefWidth="387.0" style="-fx-background-color: #812130; -fx-border-radius: 8; -fx-text-fill: white; -fx-cursor: hand;" text="LOG OUT">
          <font>
-            <Font size="27.0" />
+            <Font name="Berlin Sans FB" size="27.0" />
          </font>
       </Button>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="58.0" layoutX="384.0" layoutY="466.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #54121C; -fx-stroke: none; -fx-cursor: hand;" width="62.0" />

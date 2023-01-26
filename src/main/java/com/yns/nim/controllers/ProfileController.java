@@ -14,7 +14,7 @@ import java.util.ResourceBundle;
 
 public class ProfileController implements Initializable {
     @FXML
-    private Label userName, email, score, wins;
+    private Label userName, email, score, wins,logo;
     @FXML
     private Button goHome;
     public void switchToHome() throws IOException {
@@ -29,11 +29,13 @@ public class ProfileController implements Initializable {
             String username = stats[5];
             String sc = stats[1];
             String wns = stats[2];
+            char[] initialLetter = username.toCharArray();
+
             email.setText(em);
             score.setText(sc);
             wins.setText(wns);
             userName.setText(username);
-
+            logo.setText(String.valueOf(initialLetter[0]).toUpperCase());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

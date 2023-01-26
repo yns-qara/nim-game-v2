@@ -17,19 +17,19 @@
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="save" layoutX="388.0" layoutY="498.0" mnemonicParsing="false" onAction="#register" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: #629EE5; -fx-text-fill: white; -fx-border-radius: 6; -fx-cursor: hand;" text="Register">
+      <Button fx:id="save" layoutX="388.0" layoutY="498.0" mnemonicParsing="false" onAction="#register" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: #629EE5; -fx-text-fill: white; -fx-border-radius: 6; -fx-cursor: hand;" text="REGISTER">
          <font>
-            <Font size="23.0" />
+            <Font name="Berlin Sans FB" size="23.0" />
          </font>
       </Button>
       <Label layoutX="387.0" layoutY="101.0" text="Fist Name" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <Label layoutX="389.0" layoutY="190.0" text="Email" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <Label layoutX="448.0" layoutY="575.0" text="Already have an account?" textFill="WHITE">
@@ -47,19 +47,19 @@
       </TextField>
       <Label layoutX="587.0" layoutY="100.0" text="Last Name" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <PasswordField fx:id="password" layoutX="385.0" layoutY="307.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;" />
       <Label layoutX="389.0" layoutY="279.0" text="Password" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <PasswordField fx:id="confirmPassword" layoutX="385.0" layoutY="399.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;" />
       <Label layoutX="389.0" layoutY="371.0" text="Confirm Password" textFill="WHITE">
          <font>
-            <Font size="17.0" />
+            <Font name="Berlin Sans FB" size="17.0" />
          </font>
       </Label>
       <TextField fx:id="email" layoutX="385.0" layoutY="218.0" prefHeight="50.0" prefWidth="374.0" style="-fx-background-color: D9D9D9; -fx-border-color: #D9D9D9 #EF1F4D #2D2A32 #2D2A32; -fx-border-width: 3; -fx-text-fill: black;">
@@ -70,9 +70,9 @@
             <Font size="20.0" />
          </font>
       </TextField>
-      <Button fx:id="signIn" layoutX="635.0" layoutY="568.0" mnemonicParsing="false" onAction="#switchToSignIn" style="-fx-background-color: none; -fx-cursor: hand;" text="sign in" textFill="#10e7f4">
+      <Button fx:id="signIn" layoutX="635.0" layoutY="570.0" mnemonicParsing="false" onAction="#switchToSignIn" style="-fx-background-color: none; -fx-cursor: hand;" text="sign in" textFill="#10e7f4">
          <font>
-            <Font size="18.0" />
+            <Font name="Berlin Sans FB" size="18.0" />
          </font>
       </Button>
       <Circle fill="#991d3ec3" layoutX="331.0" layoutY="730.0" radius="140.0" stroke="TRANSPARENT" strokeType="INSIDE" />
@@ -82,5 +82,10 @@
       <Circle fill="#991d3e91" layoutX="1167.0" layoutY="297.0" radius="94.0" stroke="TRANSPARENT" strokeType="INSIDE" />
       <Circle fill="#991d3ee2" layoutX="-20.0" layoutY="680.0" radius="64.0" stroke="TRANSPARENT" strokeType="INSIDE" />
       <Circle fill="#991d3ee3" layoutX="788.0" layoutY="7.0" radius="56.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Label fx:id="errMessage" layoutX="492.0" layoutY="462.0" textFill="RED">
+         <font>
+            <Font name="Berlin Sans FB" size="17.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

@@ -20,7 +20,7 @@ public class SignInController{
     @FXML
     private PasswordField password;
     @FXML
-    private Label fillErr , incorrectCredentials;
+    private Label errMessage;
 
     private static String emailText ,passwordText;
 
@@ -32,13 +32,14 @@ public class SignInController{
         emailText = email.getText();
         passwordText = password.getText();
         if(emailText.isEmpty() || passwordText.isEmpty()){
-            fillErr.setStyle("-fx-opacity:1");
+            errMessage.setText("make sure to fill all the fields");
             return;
         }
         DbUtils db = new DbUtils();
         boolean drapeau = db.validate(emailText,passwordText);
         if(drapeau) Navigator.switchTo("fxmlFiles/home.fxml",login);
-        else incorrectCredentials.setStyle("-fx-opacity:1");
+        else errMessage.setText("email and/or password is not correct");
+
     }
 
     public static String getEmailText() {
