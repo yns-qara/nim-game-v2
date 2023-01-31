@@ -13,25 +13,26 @@ A classic two-player strategy game where players take turns removing objects fro
 - Maven
 
 ## Installation
+
 To install the game, you'll need to have Java and Maven installed. 
 
 1. Clone the repository
-
+```
 git clone https://github.com/[YOUR-USERNAME]/NIM-game.git
-
+```
 2. Navigate to the project directory
-
+```
 cd NIM-game
+```
 
-
-3. int he StatsHnadler and DbUtils Classes change the MySql password to your own password
+3. in the StatsHnadler and DbUtils Classes change the MySql password to your own password
 
 4. load the JDBC driver
 
 5. Compile and run the project
-
+```
 mvn clean javafx:run
-
+```
 
 
 ## Screenshots
